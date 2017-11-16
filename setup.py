@@ -23,11 +23,6 @@ setup(name='pymongo-schema',
       dependency_links=[
           'git@github.com:etetoolkit/ete.git'
       ],
-      entry_points={
-          'console_scripts': [
-              'pymongo-schema = pymongo_schema.__main__:main',
-          ],
-      },
       author='Pierre-Alain Jachiet',
       author_email='pajachiet@gmail.com',
       url='https://github.com/pajachiet/pymongo-schema',
